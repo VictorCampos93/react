@@ -24,6 +24,10 @@ const useStyles = makeStyles(theme => ({
     marginRight: theme.spacing(1),
     width: 100,
   },
+  botaoDourado:{
+    backgroundColor:"#000FFF",
+    
+  }
 }));
 
 function App() {
@@ -98,7 +102,7 @@ function App() {
         </div>
       </div>
 
-      <Button className="botao-primario" variant="contained">
+      <Button className={classes.botaoDourado} className="botao-primario"  variant="contained" >
         Salvar
       </Button>
 
